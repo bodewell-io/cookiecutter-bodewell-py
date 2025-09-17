@@ -1,0 +1,11 @@
+# Core Dash Functionality
+dash
+dash-ag-grid
+dash-iconify
+
+# Bodewell Component Libraries
+dash-mantine-components==2.2.1
+
+# This line installs your local, editable version of the theme.
+# For production, this would be a specific version from PyPI.
+-e ../bodewell-ui-py

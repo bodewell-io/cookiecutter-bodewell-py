@@ -1,0 +1,24 @@
+/*
+ * Bodewell AG Grid Theme
+ * Overrides the default ag-theme-alpine styles.
+ */
+.ag-theme-alpine {
+    /* Use Bodewell's primary blue for accents and selection */
+    --ag-selected-row-background-color: #EBF4FF;
+    --ag-range-selection-border-color: #1E6AFF;
+    --ag-alpine-active-color: #1E6AFF;
+    
+    /* Use Bodewell's font */
+    --ag-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+    /* Use Bodewell's gray scale for borders and headers */
+    --ag-border-color: #dee2e6;
+    --ag-header-background-color: #f8f9fa;
+    --ag-odd-row-background-color: #f8f9fa;
+    --ag-row-hover-color: #e9ecef;
+}
+
+/* Ensure the header text is not bold by default */
+.ag-theme-alpine .ag-header-cell-label {
+    font-weight: 600;
+}

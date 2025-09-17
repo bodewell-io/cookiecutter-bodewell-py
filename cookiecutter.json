@@ -1,0 +1,6 @@
+{
+  "project_name": "my-bodewell-app",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "author_name": "Your Name",
+  "author_email": "you@example.com"
+}
